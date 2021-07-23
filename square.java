@@ -1,7 +1,9 @@
 public class CalculateSquare{
   
   public static vpid main(String args){
-    square(9);
+    double squareofNumber = square(9);
+    System.out.println(squareofNumber);
+    
   }
   
   public Double square(Integer num){
